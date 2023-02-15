@@ -54,7 +54,7 @@
     z-index: 20;   
 }
 
-.skyn-strm-ttl {
+.bbcn-strm-ttl {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgb(66,35,169);
@@ -66,7 +66,7 @@
     z-index: 500;
 }
 
-.skyn-strm-live-vid {
+.bbcn-strm-live-vid {
     box-shadow: 0px 0px 15px 0px #242424;
     z-index: 10;   
 }
@@ -154,7 +154,7 @@
     display: none;
 }
 
-.skyn-strm-ttl-mob-view {
+.bbcn-strm-ttl-mob-view {
     display: none;
 }
 
@@ -200,7 +200,7 @@
         z-index: 500;
     }
 
-    .skyn-strm-ttl-mob-view {
+    .bbcn-strm-ttl-mob-view {
         display: block;
         padding-top: 20px;
         padding-bottom: 20px;
