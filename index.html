@@ -84,10 +84,10 @@
                 </script>
             </div>
             <div class="aje-strm-ttl-mob-view">AL JAZEERA</div>
-            <div class="skyn-strm-live-vid w-embed w-script"><video id="skyn-strm" controls="" autoplay="" width="100%" height="100%"></video>
+            <div class="bbcn-strm-live-vid w-embed w-script"><video id="bbcn-strm" controls="" autoplay="" width="100%" height="100%"></video>
                 <script>
-                    var video = document.getElementById('skyn-strm');
-                    var videoSrc = 'https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_hd/Live/channel(skynews)/04.m3u8';
+                    var video = document.getElementById('bbcn-strm');
+                    var videoSrc = 'https://vs-hls-push-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv10/b=1604032/main.m3u8';
                     if (Hls.isSupported()) {
                         var hls = new Hls();
                         hls.loadSource(videoSrc);
@@ -100,7 +100,7 @@
                     video.playsinline = 'true';
                 </script>
             </div>
-            <div class="skyn-strm-ttl-mob-view">SKY NEWS</div>
+            <div class="bbcn-strm-ttl-mob-view">BBC NEWS</div>
             <div class="cnni-strm-live-vid w-embed w-script"><video id="cnni-strm" controls="" autoplay="" width="100%" height="100%"></video>
                 <script>
                     var video = document.getElementById('cnni-strm');
@@ -121,7 +121,7 @@
         </div>
         <div class="w-layout-grid ttl-grid">
             <div class="aje-strm-ttl">AL JAZEERA</div>
-            <div class="skyn-strm-ttl">SKY NEWS</div>
+            <div class="bbcn-strm-ttl">SKY NEWS</div>
             <div class="cnni-strm-ttl">CNNi</div>
         </div>
         <div class="w-layout-grid live-vid-grid">
